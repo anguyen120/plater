@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>plater</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145579470-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-145579470-4');
+        </script>
+    </head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+                <img src="images/logo.png" style="width: auto; height: 75%; padding-left: 2%; padding-top: 1%;">
+				<nav>
+                    <ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#map">Map</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen" style="background-color: #10316b;">
+				<div class="content">
+					<header>
+						<h2>Don't know where to eat?</h2>
+					</header>
+                    <p>"We have all been there. Picking a restaurant can sometimes be a daunting task. Even with Yelp, it is never easy."</p>
+                    <p>Let us help you plater a restaurant through your location!</p>                  
+                    <footer>
+						<ul class="actions fixed">
+                            <li><span class="button small" id="locate-position"><a href="#map">Locate me</a></span></li>
+                        </ul>
+					</footer>
+				</div>
+            </section>
+            
+        <!-- Map -->
+			<section id="map" class="main style2 dark fullscreen">
+				<div class="content">
+                    <div id="mapid"></div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+        <footer id="footer">
+
+            <!-- Icons -->
+                <ul class="icons">
+                    <li><a href="https://github.com/anguyen120/plater" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                </ul>
+
+            <!-- Menu -->
+                <ul class="menu">
+                    <li>&copy; plater</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+
+        </footer>
+
+        <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script src="assets/js/map.js"></script>
+	</body>
+</html>
