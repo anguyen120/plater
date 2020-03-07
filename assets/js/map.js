@@ -27,6 +27,8 @@ var map = L.map('map', {
     inertiaDeceleration: 2000  
 });
 
+var circle_marker = new L.circle();
+
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://mapbox.com">Mapbox</a>',
     maxZoom: 18,
@@ -47,6 +49,7 @@ var markerGroup = L.layerGroup().addTo(map);
 
 function yelp_call(lat, lng) {
     markerGroup.clearLayers();
+    map.removeLayer(circle_marker);
     L.marker([lat, lng]).addTo(markerGroup);
     
     var yelp_query = {
@@ -66,7 +69,8 @@ function yelp_call(lat, lng) {
                 }
             });
 
-            L.circle([response.region.center.latitude, response.region.center.longitude], radius+250).addTo(map);
+            circle_marker = new L.circle([response.region.center.latitude, response.region.center.longitude], radius+250).addTo(map);
+            map.addLayer(circle_marker);
         }
     };
 
