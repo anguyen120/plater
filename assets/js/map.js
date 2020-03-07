@@ -92,7 +92,7 @@ map.setView([40.775, -73.972], 15);
 yelp_call(40.775, -73.972);
 
 $('#locate-position').on('click', function(){
-    map.locate({setView: true, maxZoom: 18});
+    map.locate({setView: true, maxZoom: 15});
 });
   
 function onLocationFound(e) {
