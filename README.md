@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-My solution for [Capital One's MindSumo challenge](https://www.mindsumo.com/contests/d052bcf8-4580-4922-95ef-a9f6ceaf0f10) to build a web app to help people pick the right restaurant.
+My solution for [Capital One's MindSumo challenge](https://www.mindsumo.com/contests/d052bcf8-4580-4922-95ef-a9f6ceaf0f10) to build a web app to help people pick the right restaurant. My submission led me to be invited to Capital One’s Software Engineering Summit in May 2020.
 
 [![Product Name Screen Shot][product-screenshot]](https://p1ater.netlify.com/)
 This web app features:
