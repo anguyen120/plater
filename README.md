@@ -20,7 +20,7 @@
     Helping you plater a restaurant through your location
     <br />
     <br />
-    <a href="https://p1ater.netlify.com/">View Demo</a>
+    <a href="https://p1ater.netlify.app">View Demo</a>
   </p>
 </p>
 
@@ -38,7 +38,7 @@
 
 My solution for [Capital One's MindSumo challenge](https://www.mindsumo.com/contests/d052bcf8-4580-4922-95ef-a9f6ceaf0f10) to build a web app to help people pick the right restaurant. My submission led me to be invited to Capital One’s Software Engineering Summit in May 2020.
 
-[![Product Name Screen Shot][product-screenshot]](https://p1ater.netlify.com/)
+[![Product Name Screen Shot][product-screenshot]](https://p1ater.netlify.app)
 This web app features:
  - Usages Yelp's Fusion API
  - Plotting merchants on a map
