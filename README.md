@@ -48,7 +48,7 @@ This web app features:
 <!-- CONTACT -->
 ## Contact
 
-Alan Nguyen - anguyen120@protonmail.com
+Alan Nguyen - anguyen120@pm.me
 
 Project Link: [https://github.com/anguyen120/plater](https://github.com/anguyen120/plater)
 
